@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauronConsol", "TauronConsol\TauronConsol.csproj", "{78AB3142-1E6F-4156-8DCC-7604CBD58CBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tauron.App", "Tauron.App\Tauron.App.csproj", "{BFB50F1E-BA80-4133-8717-828B4088624F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Tauron-x86", "Tauron-x86\Tauron-x86.vdproj", "{7B80E947-3197-482D-A073-3EF640DB864B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78AB3142-1E6F-4156-8DCC-7604CBD58CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AB3142-1E6F-4156-8DCC-7604CBD58CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AB3142-1E6F-4156-8DCC-7604CBD58CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AB3142-1E6F-4156-8DCC-7604CBD58CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB50F1E-BA80-4133-8717-828B4088624F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB50F1E-BA80-4133-8717-828B4088624F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB50F1E-BA80-4133-8717-828B4088624F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB50F1E-BA80-4133-8717-828B4088624F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B80E947-3197-482D-A073-3EF640DB864B}.Debug|Any CPU.ActiveCfg = Debug
+		{7B80E947-3197-482D-A073-3EF640DB864B}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

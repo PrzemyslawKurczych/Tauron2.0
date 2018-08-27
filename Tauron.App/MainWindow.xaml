@@ -1,0 +1,32 @@
+﻿<Window x:Class="Tauron.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tauron.App"
+        mc:Ignorable="d"
+        Title="GeoRox Tauron 2.0" Height="351.213" Width="461.893" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,2,3">
+        <RadioButton x:Name="rbSPD1" Content="O - Pomiar na osnowe" HorizontalAlignment="Left" Margin="52,114,0,0" VerticalAlignment="Top" GroupName="SPD" IsChecked="True"/>
+        <RadioButton x:Name="rbSPD2" Content="A - Pomiar wykrywaczem przewodów" HorizontalAlignment="Left" Margin="52,134,0,0" VerticalAlignment="Top" GroupName="SPD"/>
+        <RadioButton x:Name="rbSPD3" Content="B - Dane branżowe" HorizontalAlignment="Left" Margin="52,154,0,0" VerticalAlignment="Top" GroupName="SPD"/>
+        <RadioButton x:Name="rbSPD4" Content="D - Digitalizacja mapy i wektoryzacja rastra mapy" HorizontalAlignment="Left" Margin="52,174,0,0" VerticalAlignment="Top" GroupName="SPD"/>
+        <RadioButton x:Name="rbSPD5" Content="F - Fotogrametria" HorizontalAlignment="Left" Margin="52,194,0,0" VerticalAlignment="Top" GroupName="SPD"/>
+        <RadioButton x:Name="rbSPD6" Content="G - GPS bez powiązania z osnową" HorizontalAlignment="Left" Margin="52,214,0,0" VerticalAlignment="Top" GroupName="SPD"/>
+        <RadioButton x:Name="rbSPD7" Content="I - Inne" HorizontalAlignment="Left" Margin="52,234,0,0" VerticalAlignment="Top" GroupName="SPD"/>
+        <RadioButton x:Name="rbSPD8" Content="M - Pomiar w oparciu o elementy mapy lub dane projektowe" HorizontalAlignment="Left" Margin="52,254,0,0" VerticalAlignment="Top" GroupName="SPD"/>
+        <RadioButton x:Name="rbSPD9" Content="N - Niepoprawne" HorizontalAlignment="Left" Margin="52,274,0,0" VerticalAlignment="Top" GroupName="SPD"/>
+        <RadioButton x:Name="rbSPD10" Content="X - Nieokreślone" HorizontalAlignment="Left" Margin="52,294,0,0" VerticalAlignment="Top" GroupName="SPD"/>
+        <TextBox x:Name="tbNR" HorizontalAlignment="Left" Height="23" Margin="52,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="52,10,0,0" TextWrapping="Wrap" Text="Numer roboty" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbKERG" HorizontalAlignment="Left" Height="23" Margin="52,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="52,59,0,0" TextWrapping="Wrap" Text="Numer KERG/WG" VerticalAlignment="Top"/>
+        <Button x:Name="bOPTIONS" Content="Opcje" HorizontalAlignment="Left" Margin="183,289,0,0" VerticalAlignment="Top" Width="75" Click="bOPTIONS_Click"/>
+        <Button x:Name="bCREATE" Content="Przetwórz" HorizontalAlignment="Left" Margin="272,289,0,0" VerticalAlignment="Top" Width="75" Click="bCREATE_Click"/>
+        <Button x:Name="bEXIT" Content="Zakończ" HorizontalAlignment="Left" Margin="361,289,0,0" VerticalAlignment="Top" Width="75" Click="bEXIT_Click"/>
+        <Image x:Name="imageGEOROX" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="109" Margin="333,10,0,0"/>
+        <TextBox x:Name="tbNEWFILENAME" HorizontalAlignment="Left" Height="23" Margin="183,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253" TextChanged="tbNEWFILENAME_TextChanged"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="183,59,0,0" TextWrapping="Wrap" Text="Nazwa nowego pliku" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
